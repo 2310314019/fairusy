@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fay's Restaurant.</title>
+    <link rel="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">Fay's Restaurant.</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="" class="tbl-biru">Sign Up</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!-- untuk home -->
+        <section id="Home">
+            <img src="https://img.freepik.com/free-vector/cute-girl-character-wearing-chef-hat-cooking-food_1308-56185.jpg?size=626&ext=jpg&ga=GA1.1.26304773.1702099074&semt=sph"/>
+            <div class="kolom">
+                <p class="deskripsi">Nikmati Semua Menunya</p>
+                <h2>Makanan Yang Dibuat Dengan Cinta</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, magnam!</p>
+                <p><a href="" class="tbl-pink">Beli Sekarang</a></p>
+            </div>
+        </section>
+
+        <!-- untuk about -->
+        <section id="about">
+            <div class="kolom">
+                <p class="deskripsi">Our Story</p>
+                <h2>Welcome</h2>
+                <p>Restoran yang didirikan oleh Fairusy sejak 2023 ini menghidangkan makanan-makanan yang sangat lezat, tentunya dengan kualitas dan rasa yang sangat terjamin. Menggabungkan rasa klasik dengan sentuhan modern. Sebuah perpaduan yang menciptakan pengalaman berbeda dan tak terlupakan.</p>
+                <p>Restoran yang berada di kawasan Cirendeu Membawa Anda melintasi perjalanan kuliner dari masa lalu hingga masa kini. Hidangan-hidangan yang merefleksikan evolusi rasa selama bertahun-tahun.</p>
+                <p><a href="" class="tbl-biru">Beli Sekarang</a></p>
+            </div>
+            <img src="https://img.freepik.com/free-vector/video-blogger-composition-with-desktop-computer-character-cooking-female-blogger-with-food-kitchenware-vector-illustration_1284-66579.jpg?size=626&ext=jpg&ga=GA1.1.26304773.1702099074&semt=sph"/>
+        </section>
+
+        <!-- untuk menu -->
+        <section id="menu">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Our Delicious Menu</p>
+                    <h2>Menu</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, fugiat.</p>
+                </div>
+
+                <div class="menu-list">
+                    <div class="kartu-menu">
+                        <img src="https://www.edominations.com/public/upload/citizen/103149.jpg"/>
+                        <p>Nasi Goreng</p>
+                    </div>
+                    <div class="kartu-menu">
+                        <img src="https://hungerstation.com/_next/image?url=https%3A%2F%2Fimages.deliveryhero.io%2Fimage%2Fhungerstation%2Fmenus%2Fproduct%2Fhsimg-186000%3Fwidth%3D1920&w=256&q=75"/>
+                        <p>Mie Goreng</p>
+                    </div><div class="kartu-menu">
+                        <img src="https://img.wongnai.com/p/256x256/2022/06/02/b62de4fd1c6848f386af70816209b364.jpg"/>
+                        <p>Kwetiau Goreng</p>
+                    </div><div class="kartu-menu">
+                        <img src="https://assets-pergikuliner.com/G6N5TR5eiDmHDEoIIDjRlO1gYHI=/312x0/smart/https://assets-pergikuliner.com/uploads/image/picture/938727/picture-1527410660.jpg"/>
+                        <p>Kwetiau Rebus</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Fay's Restaurant.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, provident!</p>
+                </div>
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Makanan lezat yang dibuat dengan cinta oleh pemilik restaurant, "Chef Fairusy"</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Location</h3>
+                    <p>Jl.Cirendeu Indah II Tangerang Selatan</p>
+                    <p>Kode Pos: 15419</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social</h3>
+                    <p><b>Instagram: </b>@Fay's Restaurant.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2023. <b>Fay's Restaurant</b> All Rights Reserved. 
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+</html>
